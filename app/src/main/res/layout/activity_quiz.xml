@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:orientation="vertical"
+    android:background="#130139">
+
+
+    <TextView
+        android:id="@+id/lesson_number_for_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LESSON : "
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/goldman"
+        android:textSize="30sp"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scroll_view_for_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/quiz1_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_edit"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/quiz1_ans"
+                    android:layout_width="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit"
+                    android:hint="  Ans 1"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quiz1_ans_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_orange" />
+
+                <TextView
+                    android:id="@+id/quiz1_ans_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_edit"
+                    android:text="Verdict"
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/quiz2_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_edit"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/quiz2_ans"
+                    android:layout_width="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit"
+                    android:hint="  Ans 2"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quiz2_ans_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_orange" />
+
+                <TextView
+                    android:id="@+id/quiz2_ans_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_edit"
+                    android:text="Verdict"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/quiz3_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_edit"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/quiz3_ans"
+                    android:layout_width="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit"
+                    android:hint="  Ans 3"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quiz3_ans_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_orange" />
+
+                <TextView
+                    android:id="@+id/quiz3_ans_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_edit"
+                    android:text="Verdict"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/quiz4_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_edit"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/quiz4_ans"
+                    android:layout_width="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit"
+                    android:hint="  Ans 4"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quiz4_ans_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_orange" />
+
+                <TextView
+                    android:id="@+id/quiz4_ans_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_edit"
+                    android:text="Verdict"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/quiz5_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_edit"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/quiz5_ans"
+                    android:layout_width="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit"
+                    android:hint="  Ans 5"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quiz5_ans_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:text="Submit"
+                    android:background="@drawable/btn_orange" />
+
+                <TextView
+                    android:id="@+id/quiz5_ans_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/text_edit"
+                    android:text="Verdict"
+                    />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/quiz_section_to_problems_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_orange"
+                android:layout_margin="30dp"
+                android:text="Problems Section"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

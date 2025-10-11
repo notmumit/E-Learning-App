@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#130139">
+
+  <ImageView
+      android:id="@+id/logoo"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:layout_centerInParent="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="200dp"
+      android:layout_marginBottom="20dp"
+      android:src="@drawable/logo" />
+
+  <TextView
+      android:id="@+id/name"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_below="@id/logoo"
+      android:layout_centerInParent="true"
+      android:layout_marginBottom="40dp"
+      android:fontFamily="@font/goldman"
+      android:text="CODE ELEVATE"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="25sp" />
+
+  <TextView
+      android:id="@+id/wait"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_below="@+id/name"
+      android:layout_centerInParent="true"
+      android:fontFamily="@font/poppins"
+      android:text="Wait for a sec...."
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="15sp" />
+
+  <ProgressBar
+      android:id="@+id/pb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/wait"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      style="?android:attr/progressBarStyleHorizontal"/>
+
+
+
+</RelativeLayout>

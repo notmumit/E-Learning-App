@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin"
+    android:background="#130139">
+
+
+    <TextView
+        android:id="@+id/welcome_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="ADMIN PANEL"
+        android:textColor="@color/white"
+        android:textSize="42sp" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/welcome_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/text_edit"
+        android:hint="  admin"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/username"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_edit"
+        android:hint="  Password"
+        android:textSize="15sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_admin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn_orange"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/acc_nai"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_btn_for_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        android:text="User ??"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/login_btn_for_user"
+        android:layout_width="85dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Sign IN"
+        android:textColor="#e45a04"
+        android:textSize="10sp" />
+
+</RelativeLayout>

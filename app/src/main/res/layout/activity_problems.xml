@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Problems"
+    android:background="#130139">
+
+    <TextView
+        android:id="@+id/problemssssss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Problems:"
+        android:textAlignment="center"
+        android:fontFamily="@font/goldman"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/problem_1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/problemssssss"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/light_color_btn"
+        android:text="Problem 1"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/problem_2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/problem_1_btn"
+        android:text="Problem 2"
+        android:background="@drawable/light_color_btn"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/problem_3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/problem_2_btn"
+        android:text="Problem 3"
+
+        android:background="@drawable/light_color_btn"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/problem_4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/problem_3_btn"
+        android:text="Problem 4"
+        android:background="@drawable/light_color_btn"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/problem_5_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/problem_4_btn"
+        android:text="Problem 5"
+        android:background="@drawable/light_color_btn"
+
+        />
+
+
+
+
+</RelativeLayout>

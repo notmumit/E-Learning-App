@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="#130139">
+
+
+    <ImageView
+        android:id="@+id/lg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lg"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/goldman"
+        android:text="CODE ELEVATE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:id="@+id/create_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="CREATE NEW                ACCOUNT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/signup_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/create_new_account"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_edit"
+        android:hint="  Full Name"
+        android:textSize="13sp" />
+
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/signup_full_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_edit"
+        android:hint="  Username"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/signup_username"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_edit"
+        android:hint="  Email"
+        android:textSize="13sp" />
+
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/signup_email"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_edit"
+        android:hint="  Password"
+        android:textSize="13sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUp_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn_orange"
+        android:text="SignUp" />
+
+
+    <TextView
+        android:id="@+id/acc_nai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signup_page_to_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Already have an account?"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/signup_page_to_login"
+        android:layout_width="85dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Login"
+        android:textColor="#e45a04"
+        android:textSize="12sp" />
+
+
+
+</RelativeLayout>
