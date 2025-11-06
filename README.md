@@ -5,7 +5,7 @@ The app includes structured lessons, quizzes, progress tracking, and leaderboard
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)  
 2. [Features](#features)  
@@ -21,26 +21,26 @@ The app includes structured lessons, quizzes, progress tracking, and leaderboard
 
 ---
 
-## 🧩 Introduction
+## Introduction
 
 **Code Elevate** is an Android-based e-learning platform that provides interactive coding lessons, quizzes, and leaderboards to help learners build programming skills in a fun and competitive environment.  
 It supports multiple languages and includes both **student** and **admin** functionalities.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 👨‍💻 **User Authentication** – Login and sign-up functionality for learners.  
-- 📖 **Interactive Lessons** – Learn Java and C++ through structured lessons.  
-- 🧠 **Quizzes & Practice** – Test your knowledge with quizzes after each lesson.  
-- 🏆 **Leaderboard System** – Compete with others and track your learning progress.  
-- 🧑‍🏫 **Admin Dashboard** – Manage users, lessons, and content.  
-- 📱 **Modern UI** – Simple and user-friendly Android interface.  
-- ☁️ **Firebase Integration** – For authentication and data management.
+- **User Authentication** – Login and sign-up functionality for learners.  
+- **Interactive Lessons** – Learn Java and C++ through structured lessons.  
+- **Quizzes & Practice** – Test your knowledge with quizzes after each lesson.  
+- **Leaderboard System** – Compete with others and track your learning progress.  
+- **Admin Dashboard** – Manage users, lessons, and content.  
+- **Modern UI** – Simple and user-friendly Android interface.  
+- **Firebase Integration** – For authentication and data management.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Code-Elevate/
@@ -72,7 +72,7 @@ Code-Elevate/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 - Android Studio (latest version recommended)
@@ -97,14 +97,14 @@ Code-Elevate/
    - Place your `google-services.json` file inside the `app/` directory.
 
 5. **Run the app**  
-   Click ▶️ **Run** or use:
+   Click **Run** or use:
    ```bash
    ./gradlew assembleDebug
    ```
 
 ---
 
-## 🧭 Usage
+## Usage
 
 1. Launch the app on your device or emulator.  
 2. Create a new account or log in with existing credentials.  
@@ -115,7 +115,7 @@ Code-Elevate/
 
 ---
 
-## 🧩 Dependencies
+## Dependencies
 
 - **AndroidX Libraries**
 - **Firebase Authentication**
@@ -127,7 +127,7 @@ These dependencies are defined in `app/build.gradle`.
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 To connect with Firebase:
 1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).  
@@ -137,7 +137,7 @@ To connect with Firebase:
 
 ---
 
-## 🖥️ Screens and Activities
+## Screens and Activities
 
 | Activity | Description |
 |-----------|--------------|
@@ -150,7 +150,7 @@ To connect with Firebase:
 
 ---
 
-## 🩹 Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |--------|-----------|
@@ -160,27 +160,3 @@ To connect with Firebase:
 
 ---
 
-## 👨‍💻 Contributors
-
-- **Author:** You (Project Owner)  
-
-Contributions are welcome! Feel free to fork this project and submit pull requests to improve Code Elevate.
-
----
-
-## ⚖️ License
-
-This project currently has **no license**.  
-All rights reserved by the author.
-
----
-
-### 🌟 Acknowledgements
-
-- Android Studio Team  
-- Firebase by Google  
-- Open-source Android community  
-
----
-
-> *Code Elevate — Empowering learners to code smarter.*
